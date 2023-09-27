@@ -1,0 +1,43 @@
+.features
+{
+    padding: 40px 50px;
+    width :100%;
+
+}
+.features .container 
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.features .container .box 
+{
+    padding: 10px 20px;
+    display: flex;
+    background-color: #ecf2f7;
+    width: 270px;
+    height: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.features .container .box .icon
+{
+    color: #e44c8c;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.features .container .box .detail
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.features .container .box .detail h3
+{
+    color: #010f1c;
+}
+.features .container .box .detail p 
+{
+    color:#9a9a9a;
+    margin-top: 5px;
+    margin-left: 3px;
+}

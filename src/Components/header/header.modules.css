@@ -1,0 +1,40 @@
+.header
+{
+    width: 100%;
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ul 
+{
+    display: flex;
+}
+ul li 
+{
+    margin-left: 20px;
+    list-style: none;
+}
+ul li a 
+{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.5s;
+}
+ul li a:hover
+{
+    color: #0989ff;
+}
+.auth button
+{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 20px;
+}

@@ -1,0 +1,94 @@
+.mainproduct .container .productbox
+{
+    margin-right: 0%;
+}
+.mainproduct .container .productbox .contact
+{
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mainproduct .container .productbox .contact .box
+{
+    padding: 10px 20px;
+    overflow: hidden;
+    width:280px;
+    height: 380px;
+    border : solid #e2e0e0 1px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.mainproduct .container .productbox .contact .box:hover
+{
+    box-shadow: -5px 7px 6px rgba(0, 0, 0, 0.2);
+}
+.mainproduct .container .productbox .contact .box .img_box
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #e2e0e0 1px solid;
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+    position: relative;
+}
+.mainproduct .container .productbox .contact .box .img_box .icon
+{
+    margin-right: 60px;
+    position: absolute;
+    list-style: none;
+    right: -60px;
+    z-index: 1;
+    margin-top: 20px;
+    transition: 0.6s;
+}
+.mainproduct .container .productbox .contact .box .img_box:hover .icon
+{
+    transform: translateX(-50px);
+}
+.mainproduct .container .productbox .contact .box .img_box .icon li
+{
+    padding: 10px 10px;
+    /* box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: -5px 7px 6px rgba(0, 0, 0, 0.2);
+    color: #010f1c;
+    cursor: pointer;
+    background-color: #fff;
+    cursor: pointer;
+    transform: 0.3s;
+}
+.mainproduct .container .productbox .contact .box .img_box .icon li:hover
+{
+    background-color: #0989ff;
+    color: #fff;
+}
+.mainproduct .container .productbox .contact .box .detail
+{
+    margin-top: 10px;
+}
+.mainproduct .container .productbox .contact .box .detail p
+{
+    color: #9a9a9a;
+    font-size: 14px;
+}
+.mainproduct .container .productbox .contact .box .detail h3
+{
+    color: #010f1c;
+    font-size: 18px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+.mainproduct .container .productbox .contact .box:hover .detail h3
+{
+    color: #0989ff;
+}
+.mainproduct .container .productbox .contact .box:hover .detail h4
+{
+    color: #0989ff;
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
